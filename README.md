@@ -70,6 +70,8 @@ After each execution, a report will be generated at this path: '\cypress tutoria
 npm i -D cypress cypress-cucumber-preprocessor
 npm install --save-dev cypress-cucumber-preprocessor
 
+for more info https://www.npmjs.com/package/cypress-cucumber-preprocessor
+
 ### How to run ?
 Once repository is cloned then open in code editor and Install all the dependecies:
 > npm install

@@ -9,3 +9,8 @@ Feature: User Registration
     Given the user is on the Sign-Up page
     When the user enters details with an existing email
     Then an error message displays indicating the email is already registered
+
+  Scenario: User successfully logs in with created account
+    Given the user is on the Login page
+    When the user enters newly created account credentials
+    Then the user is logged in and navigated to the home page

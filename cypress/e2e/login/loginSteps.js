@@ -7,12 +7,16 @@ Given('the user is on the Login page', () => {
 });
 
 When('the user enters valid credentials', () => {
-  loginPage.enterCredentials('test12@example.com', 'Password123');
+  cy.fixture('credentials').then((credentials) => {
+    loginPage.enterCredentials(credentials.email, credentials.password);
+  });
   loginPage.submitLogin();
 });
 
 When('the user enters an incorrect password', () => {
-  loginPage.enterCredentials('test12@example.com', 'WrongPassword');
+  cy.fixture('credentials').then((credentials) => {
+    loginPage.enterCredentials(credentials.email, credentials.invalidPassword);
+  });
   loginPage.submitLogin();
 });
 

@@ -9,15 +9,15 @@ class LoginPage {
     }
   
     submitLogin() {
-      cy.get('button[title="Sign In"]').click();
+      cy.get('#send2').click({force:true});
     }
   
     verifySuccessfulLogin() {
-      cy.contains('Welcome,').should('be.visible');
+      cy.contains('Account Information').should('be.visible');
     }
   
     verifyIncorrectCredentialsError() {
-      cy.contains('The account sign-in was incorrect or your account is disabled.').should('be.visible');
+      cy.contains('The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.').should('be.visible');
     }
   }
   
