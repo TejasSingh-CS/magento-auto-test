@@ -68,10 +68,10 @@ cypress/: This is the root directory for all Cypress-related files and folders.
 #### README.md: Provides documentation and an overview of the project.
 
 ### Cypress Cucumber Preprocessor
-npm i -D cypress cypress-cucumber-preprocessor
-npm install --save-dev cypress-cucumber-preprocessor
+> npm i -D cypress cypress-cucumber-preprocessor
+> npm install --save-dev cypress-cucumber-preprocessor
 
-for more info https://www.npmjs.com/package/cypress-cucumber-preprocessor
+> for more info https://www.npmjs.com/package/cypress-cucumber-preprocessor
 
 ### How to run ?
 Once repository is cloned then open in code editor and Install all the dependecies:
