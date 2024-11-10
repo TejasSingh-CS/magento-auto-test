@@ -1,6 +1,8 @@
 # Project Name: magento_auto_test
 This project will automate the process of creating an account on the website https://magento.softwaretestingboard.com/ and signing in with that account.
 
+https://github.com/user-attachments/assets/0f3fda5e-2ae4-4965-8f11-52e65da06ddc
+
 ### Prerequisites
 To run this project on your machine, please make sure you have the following installed:
 
