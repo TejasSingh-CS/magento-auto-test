@@ -39,7 +39,7 @@ Open the E2E Testing in Cypress Dashboard. Choose browser of your choice; here, 
 cypress/: This is the root directory for all Cypress-related files and folders.
 
 #### cypress/e2e/: Contains test files organized by feature (e.g., `login` and `signUp`).
- **login**:
+  - **login**:
     - `loginSteps.js`: Step definitions for the login BDD scenarios in `login.feature`.
   - **signUp**:
     - `signUpSteps.js`: Step definitions for the sign-up BDD scenarios in `signUp.feature`.
@@ -53,7 +53,7 @@ cypress/: This is the root directory for all Cypress-related files and folders.
 - **page_objects**: Houses page object files, each encapsulating functions for interacting with a specific page.
     - `LoginPage.js`: Contains methods to interact with elements on the login page.
     - `SignUpPage.js`: Contains methods to interact with elements on the sign-up page.
-  - `commands.js`: Defines custom Cypress commands that can be reused across tests.
+- `commands.js`: Defines custom Cypress commands that can be reused across tests.
 
 #### node_modules/: Contains all the project’s npm dependencies.
 
