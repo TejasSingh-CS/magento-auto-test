@@ -32,3 +32,10 @@ jobs:
         with:
           name: cypress-screenshots
           path: cypress/screenshots  # Upload screenshots for failed tests
+
+      - name: Upload reports
+        uses: actions/upload-artifact@v3
+        with:
+          name: mochawesome-report
+          path: cypress/reports
+
