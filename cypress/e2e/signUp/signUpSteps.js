@@ -1,5 +1,7 @@
 import SignUpPage from '../../support/page_objects/SignUpPage'; 
 import LoginPage from '../../support/page_objects/LoginPage';
+import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
+
 
 const signUpPage = new SignUpPage();
 const loginPage = new LoginPage();

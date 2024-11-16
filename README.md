@@ -74,6 +74,15 @@ cypress/: This is the root directory for all Cypress-related files and folders.
 
 > for more info https://www.npmjs.com/package/cypress-cucumber-preprocessor
 
+### Cypress cypress-mochawesome-reporter
+
+> npm i --save-dev cypress-mochawesome-reporter
+> npm install cypress-on-fix
+> npm install @bahmutov/cypress-esbuild-preprocessor --save-dev
+> npm install @badeball/cypress-cucumber-preprocessor --save-dev
+
+> for more info https://www.npmjs.com/package/cypress-mochawesome-reporter
+
 ### How to run ?
 Once repository is cloned then open in code editor and Install all the dependecies:
 > npm install
